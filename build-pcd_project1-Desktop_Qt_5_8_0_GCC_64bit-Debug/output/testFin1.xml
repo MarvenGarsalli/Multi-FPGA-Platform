@@ -1,0 +1,44 @@
+<!DOCTYPE version="1.0"?>
+<hardware xmlns:xi="http://www.w3.org/2001/XInclude">
+ <version minor="0" revision="0" major="1"/>
+ <xi:include href="NO_cables.php">
+  <xi:fallback/>
+ </xi:include>
+ <vendor name="FPGA pro"/>
+ <clockModels>
+  <clockModel name="midufœ">
+   <clockNetwork name="imuhm" lvds="false"/>
+  </clockModel>
+ </clockModels>
+ <resetModels>
+  <resetModel name="xcq">
+   <resetNetwork name="ActiveLow" lvds="false"/>
+  </resetModel>
+ </resetModels>
+ <interfaces>
+  <interface nbBank="" name=""/>
+  <interface nbBank="" name=""/>
+  <interface nbBank="1" name="wxx">
+   <interfaceBank bank="N/A"/>
+  </interface>
+ </interfaces>
+ <units>
+  <unit name="1UNIT_A">
+   <fpgaRef name="xcku035sfva784"/>
+   <clockRef name="midufœ"/>
+   <resetRef name="xcq"/>
+   <interfaces>
+    <interface name=""/>
+    <interface name=""/>
+    <interface name="wxx"/>
+   </interfaces>
+  </unit>
+ </units>
+ <modules>
+  <module name="nerated successfully">
+   <instances>
+    <instance moduleRef="1UNIT_A" name="oes not exist"/>
+   </instances>
+  </module>
+ </modules>
+</hardware>

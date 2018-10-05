@@ -1,0 +1,12 @@
+<!DOCTYPE version="1.0"?>
+<hardware xmlns:xi="http://www.w3.org/2001/XInclude">
+ <version major="1" minor="0" revision="0"/>
+ <xi:include href="NO_cables.php">
+  <xi:fallback/>
+ </xi:include>
+ <vendor name="FPGA pro"/>
+ <clockModels/>
+ <resetModels/>
+ <units/>
+ <modules/>
+</hardware>

@@ -1,0 +1,42 @@
+<!DOCTYPE myNewXML>
+<hardware xmlns:xi="http://www.w3.org/2001/XInclude">
+ <version minor="0" revision="0" major="1"/>
+ <xi:include href="NO_cables.php">
+  <xi:fallback/>
+ </xi:include>
+ <vendor name="FPGA pro"/>
+ <clockModels>
+  <clockModel name="kjhhdo">
+   <clockNetwork lvds="false" name="hoioi" pinP="" pinN=""/>
+  </clockModel>
+  <clockModel name="hk">
+   <clockNetwork lvds="false" name="giu" pinP="" pinN=""/>
+  </clockModel>
+  <clockModel name="kuhdo">
+   <clockNetwork lvds="false" name="oioi" pinP="" pinN=""/>
+  </clockModel>
+  <clockModel name="hk">
+   <clockNetwork lvds="false" name="giu" pinP="" pinN=""/>
+  </clockModel>
+  <clockModel name="kuhdo">
+   <clockNetwork lvds="false" name="oioi" pinP="" pinN=""/>
+  </clockModel>
+ </clockModels>
+ <resetModels>
+  <resetModel name="hoh">
+   <clockNetwork lvds="false" name="ActiveLow" pinP="" pinN=""/>
+  </resetModel>
+  <resetModel name="iugig">
+   <clockNetwork lvds="false" name="ActiveLow" pinP="" pinN=""/>
+  </resetModel>
+  <resetModel name="oio">
+   <clockNetwork lvds="false" name="ActiveLow" pinP="" pinN=""/>
+  </resetModel>
+  <resetModel name="iugig">
+   <clockNetwork lvds="false" name="ActiveLow" pinP="" pinN=""/>
+  </resetModel>
+  <resetModel name="oio">
+   <clockNetwork lvds="false" name="ActiveLow" pinP="" pinN=""/>
+  </resetModel>
+ </resetModels>
+</hardware>

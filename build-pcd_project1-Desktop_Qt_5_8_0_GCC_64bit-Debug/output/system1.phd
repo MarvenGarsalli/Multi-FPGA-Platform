@@ -1,0 +1,1024 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hardware xmlns:xi="http://www.w3.org/2001/XInclude">
+<version major="1" minor="0" revision="0"/>
+<xi:include href="../red.out/part/redpart.reports/redpart_cable_assignments.phd">
+<xi:fallback/>
+</xi:include>
+<system vendor="R5">
+      <module name="MODULE_A">
+        <instances>
+          <instance name="UA">
+            <moduleRef name="2UNIT_A"/>
+          </instance>
+      </module>
+        <instances>
+          <instance name="UB">
+            <moduleRef name="2UNIT_B"/>
+          </instance>
+      </module>
+      <module name="2UNIT_A">
+        <instances>
+          <instance name="FPGA">
+            <fpgaRef vendor="XILINX" family="xck" model="u040" package="fbva900"/>
+          </instance>
+        </instances>
+          <connector name="conn_224_link_0" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="AJ4" index="0"/>
+              <connectorPort name="AK2" index="1"/>
+              <connectorPort name="AK1" index="2"/>
+              <connectorPort name="AJ3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_224_link_1" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="AH6" index="0"/>
+              <connectorPort name="AH2" index="1"/>
+              <connectorPort name="AH1" index="2"/>
+              <connectorPort name="AH5" index="3"/>
+            <connectorPorts>
+          <connector name="conn_224_link_2" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="AG4" index="0"/>
+              <connectorPort name="AF2" index="1"/>
+              <connectorPort name="AF1" index="2"/>
+              <connectorPort name="AG3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_224_link_3" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="AE4" index="0"/>
+              <connectorPort name="AD2" index="1"/>
+              <connectorPort name="AD1" index="2"/>
+              <connectorPort name="AE3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_225_link_0" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="AC4" index="0"/>
+              <connectorPort name="AB2" index="1"/>
+              <connectorPort name="AB1" index="2"/>
+              <connectorPort name="AC3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_225_link_1" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="AA4" index="0"/>
+              <connectorPort name="Y2" index="1"/>
+              <connectorPort name="Y1" index="2"/>
+              <connectorPort name="AA3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_225_link_2" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="W4" index="0"/>
+              <connectorPort name="V2" index="1"/>
+              <connectorPort name="V1" index="2"/>
+              <connectorPort name="W3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_225_link_3" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="U4" index="0"/>
+              <connectorPort name="T2" index="1"/>
+              <connectorPort name="T1" index="2"/>
+              <connectorPort name="U3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_226_link_0" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="R4" index="0"/>
+              <connectorPort name="P2" index="1"/>
+              <connectorPort name="P1" index="2"/>
+              <connectorPort name="R3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_226_link_1" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="N4" index="0"/>
+              <connectorPort name="M2" index="1"/>
+              <connectorPort name="M1" index="2"/>
+              <connectorPort name="N3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_226_link_2" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="L4" index="0"/>
+              <connectorPort name="K2" index="1"/>
+              <connectorPort name="K1" index="2"/>
+              <connectorPort name="L3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_226_link_3" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="J4" index="0"/>
+              <connectorPort name="H2" index="1"/>
+              <connectorPort name="H1" index="2"/>
+              <connectorPort name="J3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_227_link_0" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="G4" index="0"/>
+              <connectorPort name="F2" index="1"/>
+              <connectorPort name="F1" index="2"/>
+              <connectorPort name="G3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_227_link_1" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="E4" index="0"/>
+              <connectorPort name="D2" index="1"/>
+              <connectorPort name="D1" index="2"/>
+              <connectorPort name="E3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_227_link_2" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="C4" index="0"/>
+              <connectorPort name="B2" index="1"/>
+              <connectorPort name="B1" index="2"/>
+              <connectorPort name="C3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_227_link_3" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="B6" index="0"/>
+              <connectorPort name="A4" index="1"/>
+              <connectorPort name="A3" index="2"/>
+              <connectorPort name="B5" index="3"/>
+            <connectorPorts>
+              <connectorPort name="AK30" index="0"/>
+              <connectorPort name="AJ28" index="1"/>
+              <connectorPort name="AJ29" index="2"/>
+              <connectorPort name="AG29" index="3"/>
+              <connectorPort name="AH29" index="4"/>
+              <connectorPort name="AK27" index="5"/>
+              <connectorPort name="AK28" index="6"/>
+              <connectorPort name="AF27" index="7"/>
+              <connectorPort name="AF28" index="8"/>
+              <connectorPort name="AH26" index="9"/>
+              <connectorPort name="AJ26" index="10"/>
+              <connectorPort name="AG26" index="11"/>
+              <connectorPort name="AG27" index="12"/>
+              <connectorPort name="AK25" index="13"/>
+              <connectorPort name="AK26" index="14"/>
+              <connectorPort name="AJ24" index="15"/>
+              <connectorPort name="AJ25" index="16"/>
+              <connectorPort name="AG24" index="17"/>
+              <connectorPort name="AH24" index="18"/>
+              <connectorPort name="AE25" index="19"/>
+              <connectorPort name="AF25" index="20"/>
+              <connectorPort name="AG25" index="21"/>
+              <connectorPort name="AF23" index="22"/>
+              <connectorPort name="AF24" index="23"/>
+              <connectorPort name="AH21" index="24"/>
+              <connectorPort name="AH22" index="25"/>
+              <connectorPort name="AH23" index="26"/>
+              <connectorPort name="AK21" index="27"/>
+              <connectorPort name="AK22" index="28"/>
+              <connectorPort name="AJ23" index="29"/>
+              <connectorPort name="AK23" index="30"/>
+              <connectorPort name="AF22" index="31"/>
+              <connectorPort name="AG22" index="32"/>
+              <connectorPort name="AJ20" index="33"/>
+              <connectorPort name="AJ21" index="34"/>
+              <connectorPort name="AB21" index="35"/>
+              <connectorPort name="AC22" index="36"/>
+              <connectorPort name="AE22" index="37"/>
+              <connectorPort name="AE23" index="38"/>
+              <connectorPort name="AC21" index="39"/>
+              <connectorPort name="AD21" index="40"/>
+              <connectorPort name="AG20" index="41"/>
+              <connectorPort name="AG21" index="42"/>
+              <connectorPort name="AD20" index="43"/>
+              <connectorPort name="AE21" index="44"/>
+              <connectorPort name="AA20" index="45"/>
+              <connectorPort name="AE20" index="46"/>
+              <connectorPort name="AF20" index="47"/>
+          <connector name="conn_45" instance="FPGA" size="0" cabling="true">
+            <connectorPorts>
+              <connectorPort name="Y28" index="0"/>
+              <connectorPort name="AA28" index="1"/>
+              <connectorPort name="V29" index="2"/>
+              <connectorPort name="W28" index="3"/>
+              <connectorPort name="W29" index="4"/>
+              <connectorPort name="AA29" index="5"/>
+              <connectorPort name="AB29" index="6"/>
+              <connectorPort name="W30" index="7"/>
+              <connectorPort name="Y30" index="8"/>
+              <connectorPort name="Y27" index="9"/>
+              <connectorPort name="AA27" index="10"/>
+              <connectorPort name="AA30" index="11"/>
+              <connectorPort name="AB30" index="12"/>
+              <connectorPort name="AF29" index="13"/>
+              <connectorPort name="AF30" index="14"/>
+              <connectorPort name="AD30" index="15"/>
+              <connectorPort name="AE30" index="16"/>
+              <connectorPort name="AE26" index="17"/>
+              <connectorPort name="AE27" index="18"/>
+              <connectorPort name="AC29" index="19"/>
+              <connectorPort name="AD29" index="20"/>
+              <connectorPort name="AB27" index="21"/>
+              <connectorPort name="AC27" index="22"/>
+              <connectorPort name="AE28" index="23"/>
+              <connectorPort name="AC28" index="24"/>
+              <connectorPort name="AD28" index="25"/>
+              <connectorPort name="AA25" index="26"/>
+              <connectorPort name="AB25" index="27"/>
+              <connectorPort name="AD26" index="28"/>
+              <connectorPort name="AB26" index="29"/>
+              <connectorPort name="AC26" index="30"/>
+              <connectorPort name="AD24" index="31"/>
+              <connectorPort name="AD25" index="32"/>
+              <connectorPort name="W25" index="33"/>
+              <connectorPort name="W26" index="34"/>
+              <connectorPort name="AB24" index="35"/>
+              <connectorPort name="AC24" index="36"/>
+              <connectorPort name="Y25" index="37"/>
+              <connectorPort name="Y26" index="38"/>
+              <connectorPort name="AA23" index="39"/>
+              <connectorPort name="AA24" index="40"/>
+              <connectorPort name="W20" index="41"/>
+              <connectorPort name="W21" index="42"/>
+              <connectorPort name="W23" index="43"/>
+              <connectorPort name="W24" index="44"/>
+              <connectorPort name="AA22" index="45"/>
+              <connectorPort name="AB22" index="46"/>
+              <connectorPort name="Y21" index="47"/>
+              <connectorPort name="Y22" index="48"/>
+              <connectorPort name="Y20" index="49"/>
+              <connectorPort name="AC23" index="50"/>
+              <connectorPort name="AD23" index="51"/>
+          <connector name="conn_46" instance="FPGA" size="0" cabling="true">
+            <connectorPorts>
+              <connectorPort name="N21" index="0"/>
+              <connectorPort name="N22" index="1"/>
+              <connectorPort name="R22" index="2"/>
+              <connectorPort name="U20" index="3"/>
+              <connectorPort name="T20" index="4"/>
+              <connectorPort name="P20" index="5"/>
+              <connectorPort name="P21" index="6"/>
+              <connectorPort name="V21" index="7"/>
+              <connectorPort name="U21" index="8"/>
+              <connectorPort name="R20" index="9"/>
+              <connectorPort name="R21" index="10"/>
+              <connectorPort name="V22" index="11"/>
+              <connectorPort name="U22" index="12"/>
+              <connectorPort name="P23" index="13"/>
+              <connectorPort name="P24" index="14"/>
+              <connectorPort name="T23" index="15"/>
+              <connectorPort name="R23" index="16"/>
+              <connectorPort name="N23" index="17"/>
+              <connectorPort name="N24" index="18"/>
+              <connectorPort name="V23" index="19"/>
+              <connectorPort name="V24" index="20"/>
+              <connectorPort name="T24" index="21"/>
+              <connectorPort name="T25" index="22"/>
+              <connectorPort name="V26" index="23"/>
+              <connectorPort name="U24" index="24"/>
+              <connectorPort name="U25" index="25"/>
+              <connectorPort name="R25" index="26"/>
+              <connectorPort name="R26" index="27"/>
+              <connectorPort name="U26" index="28"/>
+              <connectorPort name="P25" index="29"/>
+              <connectorPort name="P26" index="30"/>
+              <connectorPort name="U27" index="31"/>
+              <connectorPort name="T27" index="32"/>
+              <connectorPort name="N26" index="33"/>
+              <connectorPort name="N27" index="34"/>
+              <connectorPort name="V27" index="35"/>
+              <connectorPort name="V28" index="36"/>
+              <connectorPort name="R27" index="37"/>
+              <connectorPort name="R28" index="38"/>
+              <connectorPort name="T28" index="39"/>
+              <connectorPort name="T29" index="40"/>
+              <connectorPort name="P28" index="41"/>
+              <connectorPort name="N28" index="42"/>
+              <connectorPort name="T30" index="43"/>
+              <connectorPort name="R30" index="44"/>
+              <connectorPort name="N29" index="45"/>
+              <connectorPort name="M29" index="46"/>
+              <connectorPort name="U29" index="47"/>
+              <connectorPort name="U30" index="48"/>
+              <connectorPort name="M30" index="49"/>
+              <connectorPort name="P29" index="50"/>
+              <connectorPort name="P30" index="51"/>
+          <connector name="conn_47" instance="FPGA" size="0" cabling="true">
+            <connectorPorts>
+              <connectorPort name="K26" index="0"/>
+              <connectorPort name="J26" index="1"/>
+              <connectorPort name="L24" index="2"/>
+              <connectorPort name="L25" index="3"/>
+              <connectorPort name="K25" index="4"/>
+              <connectorPort name="M25" index="5"/>
+              <connectorPort name="M26" index="6"/>
+              <connectorPort name="G25" index="7"/>
+              <connectorPort name="G26" index="8"/>
+              <connectorPort name="M27" index="9"/>
+              <connectorPort name="L27" index="10"/>
+              <connectorPort name="J25" index="11"/>
+              <connectorPort name="H26" index="12"/>
+              <connectorPort name="L28" index="13"/>
+              <connectorPort name="L29" index="14"/>
+              <connectorPort name="K27" index="15"/>
+              <connectorPort name="K28" index="16"/>
+              <connectorPort name="L30" index="17"/>
+              <connectorPort name="K30" index="18"/>
+              <connectorPort name="J28" index="19"/>
+              <connectorPort name="J29" index="20"/>
+              <connectorPort name="H27" index="21"/>
+              <connectorPort name="G27" index="22"/>
+              <connectorPort name="J30" index="23"/>
+              <connectorPort name="H28" index="24"/>
+              <connectorPort name="H29" index="25"/>
+              <connectorPort name="F27" index="26"/>
+              <connectorPort name="F28" index="27"/>
+              <connectorPort name="G29" index="28"/>
+              <connectorPort name="E27" index="29"/>
+              <connectorPort name="E28" index="30"/>
+              <connectorPort name="G30" index="31"/>
+              <connectorPort name="F30" index="32"/>
+              <connectorPort name="E26" index="33"/>
+              <connectorPort name="D26" index="34"/>
+              <connectorPort name="F29" index="35"/>
+              <connectorPort name="E30" index="36"/>
+              <connectorPort name="D29" index="37"/>
+              <connectorPort name="D30" index="38"/>
+              <connectorPort name="C27" index="39"/>
+              <connectorPort name="C28" index="40"/>
+              <connectorPort name="C26" index="41"/>
+              <connectorPort name="B26" index="42"/>
+              <connectorPort name="C29" index="43"/>
+              <connectorPort name="B29" index="44"/>
+              <connectorPort name="B27" index="45"/>
+              <connectorPort name="A27" index="46"/>
+              <connectorPort name="B30" index="47"/>
+              <connectorPort name="A30" index="48"/>
+              <connectorPort name="D28" index="49"/>
+              <connectorPort name="A28" index="50"/>
+              <connectorPort name="A29" index="51"/>
+          <connector name="conn_48" instance="FPGA" size="0" cabling="true">
+            <connectorPorts>
+              <connectorPort name="M21" index="0"/>
+              <connectorPort name="M22" index="1"/>
+              <connectorPort name="K23" index="2"/>
+              <connectorPort name="J23" index="3"/>
+              <connectorPort name="J24" index="4"/>
+              <connectorPort name="M20" index="5"/>
+              <connectorPort name="L20" index="6"/>
+              <connectorPort name="K21" index="7"/>
+              <connectorPort name="J21" index="8"/>
+              <connectorPort name="K20" index="9"/>
+              <connectorPort name="J20" index="10"/>
+              <connectorPort name="L22" index="11"/>
+              <connectorPort name="K22" index="12"/>
+              <connectorPort name="H23" index="13"/>
+              <connectorPort name="H24" index="14"/>
+              <connectorPort name="G20" index="15"/>
+              <connectorPort name="F20" index="16"/>
+              <connectorPort name="H21" index="17"/>
+              <connectorPort name="H22" index="18"/>
+              <connectorPort name="G24" index="19"/>
+              <connectorPort name="F24" index="20"/>
+              <connectorPort name="G21" index="21"/>
+              <connectorPort name="G22" index="22"/>
+              <connectorPort name="F25" index="23"/>
+              <connectorPort name="F22" index="24"/>
+              <connectorPort name="F23" index="25"/>
+              <connectorPort name="E22" index="26"/>
+              <connectorPort name="E23" index="27"/>
+              <connectorPort name="A23" index="28"/>
+              <connectorPort name="D23" index="29"/>
+              <connectorPort name="D24" index="30"/>
+              <connectorPort name="C23" index="31"/>
+              <connectorPort name="C24" index="32"/>
+              <connectorPort name="B24" index="33"/>
+              <connectorPort name="B25" index="34"/>
+              <connectorPort name="E25" index="35"/>
+              <connectorPort name="D25" index="36"/>
+              <connectorPort name="A24" index="37"/>
+              <connectorPort name="A25" index="38"/>
+              <connectorPort name="E21" index="39"/>
+              <connectorPort name="D21" index="40"/>
+              <connectorPort name="B21" index="41"/>
+              <connectorPort name="B22" index="42"/>
+              <connectorPort name="E20" index="43"/>
+              <connectorPort name="D20" index="44"/>
+              <connectorPort name="B19" index="45"/>
+              <connectorPort name="B20" index="46"/>
+              <connectorPort name="C21" index="47"/>
+              <connectorPort name="C22" index="48"/>
+              <connectorPort name="A22" index="49"/>
+              <connectorPort name="A19" index="50"/>
+              <connectorPort name="A20" index="51"/>
+          <connector name="conn_66" instance="FPGA" size="0" cabling="true">
+            <connectorPorts>
+              <connectorPort name="M17" index="0"/>
+              <connectorPort name="L17" index="1"/>
+              <connectorPort name="L14" index="2"/>
+              <connectorPort name="K18" index="3"/>
+              <connectorPort name="K17" index="4"/>
+              <connectorPort name="L15" index="5"/>
+              <connectorPort name="K15" index="6"/>
+              <connectorPort name="L19" index="7"/>
+              <connectorPort name="L18" index="8"/>
+              <connectorPort name="J19" index="9"/>
+              <connectorPort name="J18" index="10"/>
+              <connectorPort name="K16" index="11"/>
+              <connectorPort name="J15" index="12"/>
+              <connectorPort name="J16" index="13"/>
+              <connectorPort name="H16" index="14"/>
+              <connectorPort name="J14" index="15"/>
+              <connectorPort name="H14" index="16"/>
+              <connectorPort name="H18" index="17"/>
+              <connectorPort name="H17" index="18"/>
+              <connectorPort name="G14" index="19"/>
+              <connectorPort name="F14" index="20"/>
+              <connectorPort name="G17" index="21"/>
+              <connectorPort name="F17" index="22"/>
+              <connectorPort name="H19" index="23"/>
+              <connectorPort name="G16" index="24"/>
+              <connectorPort name="G15" index="25"/>
+              <connectorPort name="F18" index="26"/>
+              <connectorPort name="E18" index="27"/>
+              <connectorPort name="D16" index="28"/>
+              <connectorPort name="E17" index="29"/>
+              <connectorPort name="E16" index="30"/>
+              <connectorPort name="G19" index="31"/>
+              <connectorPort name="F19" index="32"/>
+              <connectorPort name="F15" index="33"/>
+              <connectorPort name="E15" index="34"/>
+              <connectorPort name="D19" index="35"/>
+              <connectorPort name="D18" index="36"/>
+              <connectorPort name="D15" index="37"/>
+              <connectorPort name="D14" index="38"/>
+              <connectorPort name="C17" index="39"/>
+              <connectorPort name="B17" index="40"/>
+              <connectorPort name="B16" index="41"/>
+              <connectorPort name="B15" index="42"/>
+              <connectorPort name="A18" index="43"/>
+              <connectorPort name="A17" index="44"/>
+              <connectorPort name="A15" index="45"/>
+              <connectorPort name="A14" index="46"/>
+              <connectorPort name="C19" index="47"/>
+              <connectorPort name="C18" index="48"/>
+              <connectorPort name="C16" index="49"/>
+              <connectorPort name="C14" index="50"/>
+              <connectorPort name="B14" index="51"/>
+          <connector name="conn_67" instance="FPGA" size="0" cabling="true">
+            <connectorPorts>
+              <connectorPort name="A13" index="0"/>
+              <connectorPort name="A12" index="1"/>
+              <connectorPort name="B12" index="2"/>
+              <connectorPort name="A9" index="3"/>
+              <connectorPort name="A8" index="4"/>
+              <connectorPort name="B11" index="5"/>
+              <connectorPort name="A10" index="6"/>
+              <connectorPort name="C12" index="7"/>
+              <connectorPort name="C11" index="8"/>
+              <connectorPort name="B10" index="9"/>
+              <connectorPort name="B9" index="10"/>
+              <connectorPort name="C9" index="11"/>
+              <connectorPort name="C8" index="12"/>
+              <connectorPort name="D13" index="13"/>
+              <connectorPort name="C13" index="14"/>
+              <connectorPort name="D11" index="15"/>
+              <connectorPort name="D10" index="16"/>
+              <connectorPort name="F13" index="17"/>
+              <connectorPort name="E13" index="18"/>
+              <connectorPort name="D9" index="19"/>
+              <connectorPort name="D8" index="20"/>
+              <connectorPort name="F12" index="21"/>
+              <connectorPort name="E12" index="22"/>
+              <connectorPort name="E8" index="23"/>
+              <connectorPort name="E11" index="24"/>
+              <connectorPort name="E10" index="25"/>
+              <connectorPort name="G12" index="26"/>
+              <connectorPort name="G11" index="27"/>
+              <connectorPort name="F8" index="28"/>
+              <connectorPort name="G10" index="29"/>
+              <connectorPort name="F10" index="30"/>
+              <connectorPort name="H12" index="31"/>
+              <connectorPort name="H11" index="32"/>
+              <connectorPort name="G9" index="33"/>
+              <connectorPort name="F9" index="34"/>
+              <connectorPort name="J13" index="35"/>
+              <connectorPort name="H13" index="36"/>
+              <connectorPort name="H9" index="37"/>
+              <connectorPort name="H8" index="38"/>
+              <connectorPort name="L13" index="39"/>
+              <connectorPort name="K13" index="40"/>
+              <connectorPort name="J11" index="41"/>
+              <connectorPort name="J10" index="42"/>
+              <connectorPort name="L12" index="43"/>
+              <connectorPort name="K12" index="44"/>
+              <connectorPort name="J9" index="45"/>
+              <connectorPort name="J8" index="46"/>
+              <connectorPort name="L10" index="47"/>
+              <connectorPort name="K10" index="48"/>
+              <connectorPort name="K8" index="49"/>
+              <connectorPort name="L9" index="50"/>
+              <connectorPort name="L8" index="51"/>
+          <connector name="oyfi" instance="FPGA" size="2">
+            <connectorPorts>
+              <connectorPort name="AH27" index="0"/>
+              <connectorPort name="AH28" index="1"/>
+            </connectorPorts>
+          </connector>
+          <connector name="ActiveLow" instance="FPGA" size="2">
+            <connectorPorts>
+              <connectorPort name="AG30" index="0"/>
+              <connectorPort name="AJ30" index="1"/>
+            </connectorPorts>
+          </connector>
+</hardware>
+      <module name="2UNIT_B">
+        <instances>
+          <instance name="FPGA">
+            <fpgaRef vendor="XILINX" family="xck" model="u040" package="fbva900"/>
+          </instance>
+        </instances>
+          <connector name="conn_224_link_0" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="AJ4" index="0"/>
+              <connectorPort name="AK2" index="1"/>
+              <connectorPort name="AK1" index="2"/>
+              <connectorPort name="AJ3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_224_link_1" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="AH6" index="0"/>
+              <connectorPort name="AH2" index="1"/>
+              <connectorPort name="AH1" index="2"/>
+              <connectorPort name="AH5" index="3"/>
+            <connectorPorts>
+          <connector name="conn_224_link_2" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="AG4" index="0"/>
+              <connectorPort name="AF2" index="1"/>
+              <connectorPort name="AF1" index="2"/>
+              <connectorPort name="AG3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_224_link_3" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="AE4" index="0"/>
+              <connectorPort name="AD2" index="1"/>
+              <connectorPort name="AD1" index="2"/>
+              <connectorPort name="AE3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_225_link_0" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="AC4" index="0"/>
+              <connectorPort name="AB2" index="1"/>
+              <connectorPort name="AB1" index="2"/>
+              <connectorPort name="AC3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_225_link_1" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="AA4" index="0"/>
+              <connectorPort name="Y2" index="1"/>
+              <connectorPort name="Y1" index="2"/>
+              <connectorPort name="AA3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_225_link_2" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="W4" index="0"/>
+              <connectorPort name="V2" index="1"/>
+              <connectorPort name="V1" index="2"/>
+              <connectorPort name="W3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_225_link_3" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="U4" index="0"/>
+              <connectorPort name="T2" index="1"/>
+              <connectorPort name="T1" index="2"/>
+              <connectorPort name="U3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_226_link_0" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="R4" index="0"/>
+              <connectorPort name="P2" index="1"/>
+              <connectorPort name="P1" index="2"/>
+              <connectorPort name="R3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_226_link_1" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="N4" index="0"/>
+              <connectorPort name="M2" index="1"/>
+              <connectorPort name="M1" index="2"/>
+              <connectorPort name="N3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_226_link_2" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="L4" index="0"/>
+              <connectorPort name="K2" index="1"/>
+              <connectorPort name="K1" index="2"/>
+              <connectorPort name="L3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_226_link_3" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="J4" index="0"/>
+              <connectorPort name="H2" index="1"/>
+              <connectorPort name="H1" index="2"/>
+              <connectorPort name="J3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_227_link_0" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="G4" index="0"/>
+              <connectorPort name="F2" index="1"/>
+              <connectorPort name="F1" index="2"/>
+              <connectorPort name="G3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_227_link_1" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="E4" index="0"/>
+              <connectorPort name="D2" index="1"/>
+              <connectorPort name="D1" index="2"/>
+              <connectorPort name="E3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_227_link_2" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="C4" index="0"/>
+              <connectorPort name="B2" index="1"/>
+              <connectorPort name="B1" index="2"/>
+              <connectorPort name="C3" index="3"/>
+            <connectorPorts>
+          <connector name="conn_227_link_3" instance="FPGA" size="4" cabling="true">
+            <connectorPorts>
+              <connectorPort name="B6" index="0"/>
+              <connectorPort name="A4" index="1"/>
+              <connectorPort name="A3" index="2"/>
+              <connectorPort name="B5" index="3"/>
+            <connectorPorts>
+              <connectorPort name="AK30" index="0"/>
+              <connectorPort name="AJ28" index="1"/>
+              <connectorPort name="AJ29" index="2"/>
+              <connectorPort name="AG29" index="3"/>
+              <connectorPort name="AH29" index="4"/>
+              <connectorPort name="AK27" index="5"/>
+              <connectorPort name="AK28" index="6"/>
+              <connectorPort name="AF27" index="7"/>
+              <connectorPort name="AF28" index="8"/>
+              <connectorPort name="AH26" index="9"/>
+              <connectorPort name="AJ26" index="10"/>
+              <connectorPort name="AG26" index="11"/>
+              <connectorPort name="AG27" index="12"/>
+              <connectorPort name="AK25" index="13"/>
+              <connectorPort name="AK26" index="14"/>
+              <connectorPort name="AJ24" index="15"/>
+              <connectorPort name="AJ25" index="16"/>
+              <connectorPort name="AG24" index="17"/>
+              <connectorPort name="AH24" index="18"/>
+              <connectorPort name="AE25" index="19"/>
+              <connectorPort name="AF25" index="20"/>
+              <connectorPort name="AG25" index="21"/>
+              <connectorPort name="AF23" index="22"/>
+              <connectorPort name="AF24" index="23"/>
+              <connectorPort name="AH21" index="24"/>
+              <connectorPort name="AH22" index="25"/>
+              <connectorPort name="AH23" index="26"/>
+              <connectorPort name="AK21" index="27"/>
+              <connectorPort name="AK22" index="28"/>
+              <connectorPort name="AJ23" index="29"/>
+              <connectorPort name="AK23" index="30"/>
+              <connectorPort name="AF22" index="31"/>
+              <connectorPort name="AG22" index="32"/>
+              <connectorPort name="AJ20" index="33"/>
+              <connectorPort name="AJ21" index="34"/>
+              <connectorPort name="AB21" index="35"/>
+              <connectorPort name="AC22" index="36"/>
+              <connectorPort name="AE22" index="37"/>
+              <connectorPort name="AE23" index="38"/>
+              <connectorPort name="AC21" index="39"/>
+              <connectorPort name="AD21" index="40"/>
+              <connectorPort name="AG20" index="41"/>
+              <connectorPort name="AG21" index="42"/>
+              <connectorPort name="AD20" index="43"/>
+              <connectorPort name="AE21" index="44"/>
+              <connectorPort name="AA20" index="45"/>
+              <connectorPort name="AE20" index="46"/>
+              <connectorPort name="AF20" index="47"/>
+          <connector name="conn_45" instance="FPGA" size="0" cabling="true">
+            <connectorPorts>
+              <connectorPort name="Y28" index="0"/>
+              <connectorPort name="AA28" index="1"/>
+              <connectorPort name="V29" index="2"/>
+              <connectorPort name="W28" index="3"/>
+              <connectorPort name="W29" index="4"/>
+              <connectorPort name="AA29" index="5"/>
+              <connectorPort name="AB29" index="6"/>
+              <connectorPort name="W30" index="7"/>
+              <connectorPort name="Y30" index="8"/>
+              <connectorPort name="Y27" index="9"/>
+              <connectorPort name="AA27" index="10"/>
+              <connectorPort name="AA30" index="11"/>
+              <connectorPort name="AB30" index="12"/>
+              <connectorPort name="AF29" index="13"/>
+              <connectorPort name="AF30" index="14"/>
+              <connectorPort name="AD30" index="15"/>
+              <connectorPort name="AE30" index="16"/>
+              <connectorPort name="AE26" index="17"/>
+              <connectorPort name="AE27" index="18"/>
+              <connectorPort name="AC29" index="19"/>
+              <connectorPort name="AD29" index="20"/>
+              <connectorPort name="AB27" index="21"/>
+              <connectorPort name="AC27" index="22"/>
+              <connectorPort name="AE28" index="23"/>
+              <connectorPort name="AC28" index="24"/>
+              <connectorPort name="AD28" index="25"/>
+              <connectorPort name="AA25" index="26"/>
+              <connectorPort name="AB25" index="27"/>
+              <connectorPort name="AD26" index="28"/>
+              <connectorPort name="AB26" index="29"/>
+              <connectorPort name="AC26" index="30"/>
+              <connectorPort name="AD24" index="31"/>
+              <connectorPort name="AD25" index="32"/>
+              <connectorPort name="W25" index="33"/>
+              <connectorPort name="W26" index="34"/>
+              <connectorPort name="AB24" index="35"/>
+              <connectorPort name="AC24" index="36"/>
+              <connectorPort name="Y25" index="37"/>
+              <connectorPort name="Y26" index="38"/>
+              <connectorPort name="AA23" index="39"/>
+              <connectorPort name="AA24" index="40"/>
+              <connectorPort name="W20" index="41"/>
+              <connectorPort name="W21" index="42"/>
+              <connectorPort name="W23" index="43"/>
+              <connectorPort name="W24" index="44"/>
+              <connectorPort name="AA22" index="45"/>
+              <connectorPort name="AB22" index="46"/>
+              <connectorPort name="Y21" index="47"/>
+              <connectorPort name="Y22" index="48"/>
+              <connectorPort name="Y20" index="49"/>
+              <connectorPort name="AC23" index="50"/>
+              <connectorPort name="AD23" index="51"/>
+          <connector name="conn_46" instance="FPGA" size="0" cabling="true">
+            <connectorPorts>
+              <connectorPort name="N21" index="0"/>
+              <connectorPort name="N22" index="1"/>
+              <connectorPort name="R22" index="2"/>
+              <connectorPort name="U20" index="3"/>
+              <connectorPort name="T20" index="4"/>
+              <connectorPort name="P20" index="5"/>
+              <connectorPort name="P21" index="6"/>
+              <connectorPort name="V21" index="7"/>
+              <connectorPort name="U21" index="8"/>
+              <connectorPort name="R20" index="9"/>
+              <connectorPort name="R21" index="10"/>
+              <connectorPort name="V22" index="11"/>
+              <connectorPort name="U22" index="12"/>
+              <connectorPort name="P23" index="13"/>
+              <connectorPort name="P24" index="14"/>
+              <connectorPort name="T23" index="15"/>
+              <connectorPort name="R23" index="16"/>
+              <connectorPort name="N23" index="17"/>
+              <connectorPort name="N24" index="18"/>
+              <connectorPort name="V23" index="19"/>
+              <connectorPort name="V24" index="20"/>
+              <connectorPort name="T24" index="21"/>
+              <connectorPort name="T25" index="22"/>
+              <connectorPort name="V26" index="23"/>
+              <connectorPort name="U24" index="24"/>
+              <connectorPort name="U25" index="25"/>
+              <connectorPort name="R25" index="26"/>
+              <connectorPort name="R26" index="27"/>
+              <connectorPort name="U26" index="28"/>
+              <connectorPort name="P25" index="29"/>
+              <connectorPort name="P26" index="30"/>
+              <connectorPort name="U27" index="31"/>
+              <connectorPort name="T27" index="32"/>
+              <connectorPort name="N26" index="33"/>
+              <connectorPort name="N27" index="34"/>
+              <connectorPort name="V27" index="35"/>
+              <connectorPort name="V28" index="36"/>
+              <connectorPort name="R27" index="37"/>
+              <connectorPort name="R28" index="38"/>
+              <connectorPort name="T28" index="39"/>
+              <connectorPort name="T29" index="40"/>
+              <connectorPort name="P28" index="41"/>
+              <connectorPort name="N28" index="42"/>
+              <connectorPort name="T30" index="43"/>
+              <connectorPort name="R30" index="44"/>
+              <connectorPort name="N29" index="45"/>
+              <connectorPort name="M29" index="46"/>
+              <connectorPort name="U29" index="47"/>
+              <connectorPort name="U30" index="48"/>
+              <connectorPort name="M30" index="49"/>
+              <connectorPort name="P29" index="50"/>
+              <connectorPort name="P30" index="51"/>
+          <connector name="conn_47" instance="FPGA" size="0" cabling="true">
+            <connectorPorts>
+              <connectorPort name="K26" index="0"/>
+              <connectorPort name="J26" index="1"/>
+              <connectorPort name="L24" index="2"/>
+              <connectorPort name="L25" index="3"/>
+              <connectorPort name="K25" index="4"/>
+              <connectorPort name="M25" index="5"/>
+              <connectorPort name="M26" index="6"/>
+              <connectorPort name="G25" index="7"/>
+              <connectorPort name="G26" index="8"/>
+              <connectorPort name="M27" index="9"/>
+              <connectorPort name="L27" index="10"/>
+              <connectorPort name="J25" index="11"/>
+              <connectorPort name="H26" index="12"/>
+              <connectorPort name="L28" index="13"/>
+              <connectorPort name="L29" index="14"/>
+              <connectorPort name="K27" index="15"/>
+              <connectorPort name="K28" index="16"/>
+              <connectorPort name="L30" index="17"/>
+              <connectorPort name="K30" index="18"/>
+              <connectorPort name="J28" index="19"/>
+              <connectorPort name="J29" index="20"/>
+              <connectorPort name="H27" index="21"/>
+              <connectorPort name="G27" index="22"/>
+              <connectorPort name="J30" index="23"/>
+              <connectorPort name="H28" index="24"/>
+              <connectorPort name="H29" index="25"/>
+              <connectorPort name="F27" index="26"/>
+              <connectorPort name="F28" index="27"/>
+              <connectorPort name="G29" index="28"/>
+              <connectorPort name="E27" index="29"/>
+              <connectorPort name="E28" index="30"/>
+              <connectorPort name="G30" index="31"/>
+              <connectorPort name="F30" index="32"/>
+              <connectorPort name="E26" index="33"/>
+              <connectorPort name="D26" index="34"/>
+              <connectorPort name="F29" index="35"/>
+              <connectorPort name="E30" index="36"/>
+              <connectorPort name="D29" index="37"/>
+              <connectorPort name="D30" index="38"/>
+              <connectorPort name="C27" index="39"/>
+              <connectorPort name="C28" index="40"/>
+              <connectorPort name="C26" index="41"/>
+              <connectorPort name="B26" index="42"/>
+              <connectorPort name="C29" index="43"/>
+              <connectorPort name="B29" index="44"/>
+              <connectorPort name="B27" index="45"/>
+              <connectorPort name="A27" index="46"/>
+              <connectorPort name="B30" index="47"/>
+              <connectorPort name="A30" index="48"/>
+              <connectorPort name="D28" index="49"/>
+              <connectorPort name="A28" index="50"/>
+              <connectorPort name="A29" index="51"/>
+          <connector name="conn_48" instance="FPGA" size="0" cabling="true">
+            <connectorPorts>
+              <connectorPort name="M21" index="0"/>
+              <connectorPort name="M22" index="1"/>
+              <connectorPort name="K23" index="2"/>
+              <connectorPort name="J23" index="3"/>
+              <connectorPort name="J24" index="4"/>
+              <connectorPort name="M20" index="5"/>
+              <connectorPort name="L20" index="6"/>
+              <connectorPort name="K21" index="7"/>
+              <connectorPort name="J21" index="8"/>
+              <connectorPort name="K20" index="9"/>
+              <connectorPort name="J20" index="10"/>
+              <connectorPort name="L22" index="11"/>
+              <connectorPort name="K22" index="12"/>
+              <connectorPort name="H23" index="13"/>
+              <connectorPort name="H24" index="14"/>
+              <connectorPort name="G20" index="15"/>
+              <connectorPort name="F20" index="16"/>
+              <connectorPort name="H21" index="17"/>
+              <connectorPort name="H22" index="18"/>
+              <connectorPort name="G24" index="19"/>
+              <connectorPort name="F24" index="20"/>
+              <connectorPort name="G21" index="21"/>
+              <connectorPort name="G22" index="22"/>
+              <connectorPort name="F25" index="23"/>
+              <connectorPort name="F22" index="24"/>
+              <connectorPort name="F23" index="25"/>
+              <connectorPort name="E22" index="26"/>
+              <connectorPort name="E23" index="27"/>
+              <connectorPort name="A23" index="28"/>
+              <connectorPort name="D23" index="29"/>
+              <connectorPort name="D24" index="30"/>
+              <connectorPort name="C23" index="31"/>
+              <connectorPort name="C24" index="32"/>
+              <connectorPort name="B24" index="33"/>
+              <connectorPort name="B25" index="34"/>
+              <connectorPort name="E25" index="35"/>
+              <connectorPort name="D25" index="36"/>
+              <connectorPort name="A24" index="37"/>
+              <connectorPort name="A25" index="38"/>
+              <connectorPort name="E21" index="39"/>
+              <connectorPort name="D21" index="40"/>
+              <connectorPort name="B21" index="41"/>
+              <connectorPort name="B22" index="42"/>
+              <connectorPort name="E20" index="43"/>
+              <connectorPort name="D20" index="44"/>
+              <connectorPort name="B19" index="45"/>
+              <connectorPort name="B20" index="46"/>
+              <connectorPort name="C21" index="47"/>
+              <connectorPort name="C22" index="48"/>
+              <connectorPort name="A22" index="49"/>
+              <connectorPort name="A19" index="50"/>
+              <connectorPort name="A20" index="51"/>
+          <connector name="conn_66" instance="FPGA" size="0" cabling="true">
+            <connectorPorts>
+              <connectorPort name="M17" index="0"/>
+              <connectorPort name="L17" index="1"/>
+              <connectorPort name="L14" index="2"/>
+              <connectorPort name="K18" index="3"/>
+              <connectorPort name="K17" index="4"/>
+              <connectorPort name="L15" index="5"/>
+              <connectorPort name="K15" index="6"/>
+              <connectorPort name="L19" index="7"/>
+              <connectorPort name="L18" index="8"/>
+              <connectorPort name="J19" index="9"/>
+              <connectorPort name="J18" index="10"/>
+              <connectorPort name="K16" index="11"/>
+              <connectorPort name="J15" index="12"/>
+              <connectorPort name="J16" index="13"/>
+              <connectorPort name="H16" index="14"/>
+              <connectorPort name="J14" index="15"/>
+              <connectorPort name="H14" index="16"/>
+              <connectorPort name="H18" index="17"/>
+              <connectorPort name="H17" index="18"/>
+              <connectorPort name="G14" index="19"/>
+              <connectorPort name="F14" index="20"/>
+              <connectorPort name="G17" index="21"/>
+              <connectorPort name="F17" index="22"/>
+              <connectorPort name="H19" index="23"/>
+              <connectorPort name="G16" index="24"/>
+              <connectorPort name="G15" index="25"/>
+              <connectorPort name="F18" index="26"/>
+              <connectorPort name="E18" index="27"/>
+              <connectorPort name="D16" index="28"/>
+              <connectorPort name="E17" index="29"/>
+              <connectorPort name="E16" index="30"/>
+              <connectorPort name="G19" index="31"/>
+              <connectorPort name="F19" index="32"/>
+              <connectorPort name="F15" index="33"/>
+              <connectorPort name="E15" index="34"/>
+              <connectorPort name="D19" index="35"/>
+              <connectorPort name="D18" index="36"/>
+              <connectorPort name="D15" index="37"/>
+              <connectorPort name="D14" index="38"/>
+              <connectorPort name="C17" index="39"/>
+              <connectorPort name="B17" index="40"/>
+              <connectorPort name="B16" index="41"/>
+              <connectorPort name="B15" index="42"/>
+              <connectorPort name="A18" index="43"/>
+              <connectorPort name="A17" index="44"/>
+              <connectorPort name="A15" index="45"/>
+              <connectorPort name="A14" index="46"/>
+              <connectorPort name="C19" index="47"/>
+              <connectorPort name="C18" index="48"/>
+              <connectorPort name="C16" index="49"/>
+              <connectorPort name="C14" index="50"/>
+              <connectorPort name="B14" index="51"/>
+          <connector name="conn_67" instance="FPGA" size="0" cabling="true">
+            <connectorPorts>
+              <connectorPort name="A13" index="0"/>
+              <connectorPort name="A12" index="1"/>
+              <connectorPort name="B12" index="2"/>
+              <connectorPort name="A9" index="3"/>
+              <connectorPort name="A8" index="4"/>
+              <connectorPort name="B11" index="5"/>
+              <connectorPort name="A10" index="6"/>
+              <connectorPort name="C12" index="7"/>
+              <connectorPort name="C11" index="8"/>
+              <connectorPort name="B10" index="9"/>
+              <connectorPort name="B9" index="10"/>
+              <connectorPort name="C9" index="11"/>
+              <connectorPort name="C8" index="12"/>
+              <connectorPort name="D13" index="13"/>
+              <connectorPort name="C13" index="14"/>
+              <connectorPort name="D11" index="15"/>
+              <connectorPort name="D10" index="16"/>
+              <connectorPort name="F13" index="17"/>
+              <connectorPort name="E13" index="18"/>
+              <connectorPort name="D9" index="19"/>
+              <connectorPort name="D8" index="20"/>
+              <connectorPort name="F12" index="21"/>
+              <connectorPort name="E12" index="22"/>
+              <connectorPort name="E8" index="23"/>
+              <connectorPort name="E11" index="24"/>
+              <connectorPort name="E10" index="25"/>
+              <connectorPort name="G12" index="26"/>
+              <connectorPort name="G11" index="27"/>
+              <connectorPort name="F8" index="28"/>
+              <connectorPort name="G10" index="29"/>
+              <connectorPort name="F10" index="30"/>
+              <connectorPort name="H12" index="31"/>
+              <connectorPort name="H11" index="32"/>
+              <connectorPort name="G9" index="33"/>
+              <connectorPort name="F9" index="34"/>
+              <connectorPort name="J13" index="35"/>
+              <connectorPort name="H13" index="36"/>
+              <connectorPort name="H9" index="37"/>
+              <connectorPort name="H8" index="38"/>
+              <connectorPort name="L13" index="39"/>
+              <connectorPort name="K13" index="40"/>
+              <connectorPort name="J11" index="41"/>
+              <connectorPort name="J10" index="42"/>
+              <connectorPort name="L12" index="43"/>
+              <connectorPort name="K12" index="44"/>
+              <connectorPort name="J9" index="45"/>
+              <connectorPort name="J8" index="46"/>
+              <connectorPort name="L10" index="47"/>
+              <connectorPort name="K10" index="48"/>
+              <connectorPort name="K8" index="49"/>
+              <connectorPort name="L9" index="50"/>
+              <connectorPort name="L8" index="51"/>
+          <connector name="ogyi" instance="FPGA" size="2">
+            <connectorPorts>
+              <connectorPort name="AH27" index="0"/>
+              <connectorPort name="AH28" index="1"/>
+            </connectorPorts>
+          </connector>
+          <connector name="ActiveLow" instance="FPGA" size="2">
+            <connectorPorts>
+              <connectorPort name="AG30" index="0"/>
+              <connectorPort name="AJ30" index="1"/>
+            </connectorPorts>
+          </connector>
+</hardware>

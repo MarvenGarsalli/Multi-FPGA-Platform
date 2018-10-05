@@ -1,0 +1,32 @@
+<!DOCTYPE myNewXML>
+<hardware xmlns:xi="http://www.w3.org/2001/XInclude">
+ <version revision="0" minor="0" major="1"/>
+ <xi:include href="NO_cables.php">
+  <xi:fallback/>
+ </xi:include>
+ <vendor name="FPGA pro"/>
+ <clockModels>
+  <clockModel name="qesd">
+   <clockNetwork name="dfsdf" lvds="false"/>
+  </clockModel>
+ </clockModels>
+ <resetModels>
+  <resetModel name="sdfd">
+   <resetNetwork name="ActiveLow" lvds="false"/>
+  </resetModel>
+ </resetModels>
+ <units>
+  <unit name="1UNIT_A">
+   <fpgaRef name="xcku035sfva784pkg"/>
+   <clockRef name="qesd"/>
+   <resetRef name="sdfd"/>
+  </unit>
+ </units>
+ <modules>
+  <module name="nerated successfully">
+   <instances>
+    <instance name="oes not exist" moduleRef="1UNIT_A"/>
+   </instances>
+  </module>
+ </modules>
+</hardware>

@@ -1,0 +1,21 @@
+<!DOCTYPE myNewXML>
+<hardware xmlns:xi="http://www.w3.org/2001/XInclude">
+ <version major="1" minor="0" revision="0"/>
+ <xi:include href="NO_cables.php">
+  <xi:fallback/>
+ </xi:include>
+ <vendor name="FPGA pro"/>
+ <clockModels>
+  <clockModel name="xc">
+   <clockNetwork pinN="BM46" lvds="true" name="scxc" pinP="AM22"/>
+   <clockNetwork pinN="BM46" lvds="false" name="tapa2" pinP="BM45"/>
+  </clockModel>
+ </clockModels>
+ <resetModels>
+  <resetModel name="wxc">
+   <clockNetwork pinN="BM46" lvds="false" name="ActiveLow" pinP="BM45"/>
+   <clockNetwork pinN="BM46" lvds="true" name="ActiveHigh" pinP="BM45"/>
+  </resetModel>
+ </resetModels>
+ <interfaces/>
+</hardware>

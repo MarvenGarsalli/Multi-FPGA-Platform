@@ -1,0 +1,32 @@
+<!DOCTYPE version="1.0"?>
+<hardware xmlns:xi="http://www.w3.org/2001/XInclude">
+ <version revision="0" major="1" minor="0"/>
+ <xi:include href="NO_cables.php">
+  <xi:fallback/>
+ </xi:include>
+ <vendor name="FPGA pro"/>
+ <clockModels>
+  <clockModel name="smiu">
+   <clockNetwork lvds="false" name="iiuig"/>
+  </clockModel>
+ </clockModels>
+ <resetModels>
+  <resetModel name="miugmug">
+   <resetNetwork lvds="false" name="ActiveLow"/>
+  </resetModel>
+ </resetModels>
+ <units>
+  <unit name="1UNIT_A">
+   <fpgaRef name="xcku035ffva1156"/>
+   <clockRef name="smiu"/>
+   <resetRef name="miugmug"/>
+  </unit>
+ </units>
+ <modules>
+  <module name="MODULE_A">
+   <instances>
+    <instance name="UA" moduleRef="1UNIT_A"/>
+   </instances>
+  </module>
+ </modules>
+</hardware>

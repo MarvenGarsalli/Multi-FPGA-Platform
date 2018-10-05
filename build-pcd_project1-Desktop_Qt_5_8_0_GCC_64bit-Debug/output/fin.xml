@@ -1,0 +1,30 @@
+<!DOCTYPE version="1.0"?>
+<hardware xmlns:xi="http://www.w3.org/2001/XInclude">
+ <version revision="0" major="1" minor="0"/>
+ <xi:include href="NO_cables.php">
+  <xi:fallback/>
+ </xi:include>
+ <vendor name="FPGA pro"/>
+ <clockModels/>
+ <resetModels/>
+ <units>
+  <unit name="2UNIT_A">
+   <fpgaRef name="xcku035ffva1156"/>
+   <clockRef name="tapa"/>
+   <resetRef name="test"/>
+  </unit>
+  <unit name="2UNIT_B">
+   <fpgaRef name="xcku035sfva784"/>
+   <clockRef name="tapa"/>
+   <resetRef name="test"/>
+  </unit>
+ </units>
+ <modules>
+  <module name="MODULE_A">
+   <instances>
+    <instance moduleRef="2UNIT_A" name="UA"/>
+    <instance moduleRef="2UNIT_B" name="UB"/>
+   </instances>
+  </module>
+ </modules>
+</hardware>

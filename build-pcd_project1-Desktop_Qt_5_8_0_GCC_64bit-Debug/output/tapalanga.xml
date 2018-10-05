@@ -1,0 +1,40 @@
+<!DOCTYPE myNewXML>
+<hardware xmlns:xi="http://www.w3.org/2001/XInclude">
+ <version revision="0" major="1" minor="0"/>
+ <xi:include href="NO_cables.php">
+  <xi:fallback/>
+ </xi:include>
+ <vendor name="FPGA pro"/>
+ <clockModels>
+  <clockModel name="tapa">
+   <clockNetwork lvds="false" name="lanfa" pinP="" pinN=""/>
+  </clockModel>
+ </clockModels>
+ <resetModels>
+  <resetModel name="tapa">
+   <clockNetwork lvds="false" name="ActiveLow" pinP="" pinN=""/>
+  </resetModel>
+ </resetModels>
+ <interfaces>
+  <interface name="tapalanga" nbBank="1">
+   <interfaceBank bank="AN22"/>
+  </interface>
+ </interfaces>
+ <units>
+  <unit name="1UNIT_A">
+   <fpgaRef name="xcku035ffva1156pkg"/>
+   <clockRef name="tapa"/>
+   <clockRef name="tapa"/>
+   <interfaces>
+    <interface name="tapalanga"/>
+   </interfaces>
+  </unit>
+ </units>
+ <modules>
+  <module name="st">
+   <instances>
+    <instance moduleRef="1UNIT_A" name="t1/mainwindow.cpp:436"/>
+   </instances>
+  </module>
+ </modules>
+</hardware>

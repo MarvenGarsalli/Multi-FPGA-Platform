@@ -1,0 +1,64 @@
+<!DOCTYPE myNewXML>
+<hardware xmlns:xi="http://www.w3.org/2001/XInclude">
+ <version major="1" minor="0" revision="0"/>
+ <xi:include href="NO_cables.php">
+  <xi:fallback/>
+ </xi:include>
+ <vendor name="FPGA pro"/>
+ <clockModels>
+  <clockModel name="omar">
+   <clockNetwork lvds="false" name="gzay"/>
+  </clockModel>
+  <clockModel name="marven">
+   <clockNetwork lvds="false" name="mar"/>
+   <clockNetwork lvds="false" pinP="AN22" name="marxx"/>
+  </clockModel>
+  <clockModel name="mohamed">
+   <clockNetwork lvds="false" pinP="AC22" name="lefi" pinN="AC22"/>
+  </clockModel>
+ </clockModels>
+ <resetModels>
+  <resetModel name="oma">
+   <resetNetwork lvds="false" name="ActiveLow"/>
+  </resetModel>
+  <resetModel name="garsalli">
+   <resetNetwork lvds="false" name="ActiveLow"/>
+  </resetModel>
+  <resetModel name="lefi">
+   <resetNetwork lvds="false" pinP="L27" name="ActiveLow" pinN=""/>
+  </resetModel>
+ </resetModels>
+ <units>
+  <unit name="1UNIT_A">
+   <fpgaRef name="xcku060ffva1156pkg"/>
+   <clockRef name="omar"/>
+   <resetRef name="oma"/>
+   <interfaces/>
+  </unit>
+  <unit name="2UNIT_A">
+   <fpgaRef name="xcku025ffva1156pkg"/>
+   <clockRef name="marven"/>
+   <resetRef name="garsalli"/>
+   <interfaces/>
+  </unit>
+  <unit name="2UNIT_B">
+   <fpgaRef name="xcku035sfva784pkg"/>
+   <clockRef name="mohamed"/>
+   <resetRef name="lefi"/>
+   <interfaces/>
+  </unit>
+ </units>
+ <modules>
+  <module name="ODULE_">
+   <instances>
+    <instance name="" moduleRef="1UNIT_A"/>
+   </instances>
+  </module>
+  <module name="DULE_">
+   <instances>
+    <instance name="" moduleRef="2UNIT_A"/>
+    <instance name="moduleRef" moduleRef="2UNIT_B"/>
+   </instances>
+  </module>
+ </modules>
+</hardware>

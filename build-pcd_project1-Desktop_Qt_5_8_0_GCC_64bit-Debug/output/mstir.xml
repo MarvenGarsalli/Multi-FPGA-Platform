@@ -1,0 +1,28 @@
+<!DOCTYPE version="1.0"?>
+<hardware xmlns:xi="http://www.w3.org/2001/XInclude">
+ <version major="1" revision="0" minor="0"/>
+ <xi:include href="NO_cables.php">
+  <xi:fallback/>
+ </xi:include>
+ <vendor name="FPGA pro"/>
+ <clockModels/>
+ <resetModels>
+  <resetModel name="lugllg">
+   <resetNetwork name="ActiveLow" lvds="false"/>
+  </resetModel>
+ </resetModels>
+ <units>
+  <unit name="1UNIT_A">
+   <fpgaRef name="xcku040fbva676"/>
+   <clockRef name="ldyfg"/>
+   <resetRef name="lugllg"/>
+  </unit>
+ </units>
+ <modules>
+  <module name="MODULE_A">
+   <instances>
+    <instance name="UA" moduleRef="1UNIT_A"/>
+   </instances>
+  </module>
+ </modules>
+</hardware>

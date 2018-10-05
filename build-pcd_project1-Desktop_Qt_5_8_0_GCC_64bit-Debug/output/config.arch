@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+  <hardware xmlns:xi="http://www.w3.org/2001/XInclude">
+  <version major="1" minor="0" revision="0"/>
+  <xi:include href="NO_cables.phd">
+    <xi:fallback/>
+  </xi:include>
+  <vendor name="proFPGA"/>
+
+<clockModels>
+      <clockModel name="clockModel1"> 
+        <clockNetwork name="CLK1" lvds="true" />
+        <clockNetwork name="CLK2" lvds="true" pinP="BM45" pinN="BM46" />
+        <clockNetwork name="CLK3" lvds="true" pinP="BL43" pinN="BM44" />
+        <clockNetwork name="CLK4" lvds="true" pinP="BL44" pinN="BL45" />
+      </clockModel>
+    </clockModels>
+
+<resetModels>                   
+      <resetModel name="resetModel1"> 
+        <resetNetwork name="RST1" type="ActiveLow" lvds="true" />
+        <resetNetwork name="RST2" type="ActiveLow" lvds="true" pinP="BM41" pinN="BM42" />
+        <resetNetwork name="RST3" type="ActiveLow" lvds="true" pinP="BE52" pinN="BF52" />
+        <resetNetwork name="RST4" type="ActiveLow" lvds="true" pinP="BK51" pinN="BK52" />
+      </resetModel>
+    </resetModels>
+
+    <interfaces>                       
+      <interface name="DDR1" nbBank="2">   
+        <interfaceBank bank="47"/>  
+        <interfaceBank bank="39"/> 
+      </interface>
+      <interface name="DDR2" nbBank="1"> 
+      </interface>
+    </interfaces>
+
+<units>
+      <unit name="UNIT_A">                  
+        <fpgaRef name="XCVU440FLGA2892" />
+        <clockRef name="clockModel1"/>   
+        <resetRef name="resetModel1"/>   
+        <interfaces>                       
+          <interface name="DDR1"/>          
+          <interface name="DDR2"/>          
+        </interfaces>                       
+      </unit>
+      <unit name="UNIT_B">                  
+        <fpgaRef name="XCVU440FLGA2892" />
+        <clockRef name="clockModel1"/>   
+        <resetRef name="resetModel1"/>   
+      </unit>
+      <unit name="UNIT_C">                  
+        <fpgaRef name="XCVU440FLGA2892" />
+        <clockRef name="clockModel1"/>   
+        <resetRef name="resetModel1"/>   
+      </unit>
+      <unit name="UNIT_D">                  
+        <fpgaRef name="XCVU440FLGA2892" />
+        <clockRef name="clockModel1"/>   
+        <resetRef name="resetModel1"/>   
+      </unit>
+</units>
+
+<modules>
+      <module name="MODULE_A">                  
+        <instances>
+          <instance name="uA" moduleRef="UNIT_A"/>                  
+          <instance name="uB" moduleRef="UNIT_B"/>                  
+        </instances>
+      </module>
+      <module name="MODULE_B">
+        <instances>
+          <instance name="uC"  moduleRef="UNIT_C"/>
+          <instance name="uD"  moduleRef="UNIT_D"/>
+        </instances>
+      </module>
+      <module name="MODULE_C">
+  	<instances>
+	   <instance name="MA" moduleRef="MODULE_A"/>
+	   <instance name="MB" moduleRef="MODULE_B"/>
+        </instances> 
+      </module>
+    </modules>
+</hardware>
